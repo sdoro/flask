@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/index')
 def index():
-    return render_template("index.html", name=username, alarms=alarms)
+    return render_template("index.html")
 
 @app.route('/about')
 def about():
